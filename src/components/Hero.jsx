@@ -2,6 +2,9 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin, FaXTwitter } from "react-icons/fa6";
 import { MdDownload, MdOutlineMailOutline, MdPhone } from "react-icons/md";
 import HeroImage from '../assets/Rahul.png';
+import resume from '../assets/RahulKumar.pdf';
+
+
 
 const Hero = () => {
   return (
@@ -66,7 +69,7 @@ const Hero = () => {
         </a>
         <br />
 
-        <a href="/RahulKumar.pdf"
+        <a href={resume}
           download
 
           target='_blank'

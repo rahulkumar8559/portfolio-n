@@ -1,4 +1,4 @@
-
+import img from '../assets/web-dev.jpg';
 
 const About = () => {
   return (
@@ -7,7 +7,7 @@ const About = () => {
         <h2 className="text-4xl font-bold text-center mb-12">About Me</h2>
         <div className="flex flex-col justify-between gap-[40px] item-center md:flex-row items-center md:space-x-12">
           <img
-            src="/web-dev.jpg"
+            src={img}
             alt=""
             className="w-60 h-80 rounded-[50%] object-cover mb-8 md:mb-0"
           />
