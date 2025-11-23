@@ -30,7 +30,7 @@ const Projects = () => {
             transform transition-transform duration-300 hover:scale-105">
             <img src={cultural} alt="food" className="rounded-lg mb-4 
               w-full h-48 object-cover" />
-            <h3 className="text-2xl font-bold mb-2">Food delivery</h3>
+            <h3 className="text-2xl font-bold mb-2">Cultural Atlas</h3>
             <p className="text-gray-400 mb-4">Frontend</p>
             <p className="text-[14px]"> The Cultural Atlas is an educational resource providing comprehensive information on the cultural background of All Country migrant populations. The aim is to improve social cohesion and promote inclusion in an increasingly culturally diverse society.</p>
             <div className="flex items-center pt-[20px] justify-evenly">
